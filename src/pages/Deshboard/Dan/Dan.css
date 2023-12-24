@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 420px;
+    justify-content: center;
+}
+
+.container .box{
+    position: relative;
+    height: 160px;
+    width: 160px;
+    border-radius: 12px;
+    border: 2px solid #333;
+}
+.box .image{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://i.ibb.co/bQZ1xRt/girls1.webp');
+}
+.box.hovered{
+    border: 2px dashed #333;
+}
